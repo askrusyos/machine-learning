@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Machine learning course project"
 author: askrusyos
 output: 
   html_document: 

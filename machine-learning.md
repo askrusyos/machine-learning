@@ -1,4 +1,4 @@
-# Untitled
+# Machine learning course project
 askrusyos  
 
 
@@ -93,13 +93,13 @@ modelTree
 ## 
 ## No pre-processing
 ## Resampling: Cross-Validated (6 fold) 
-## Summary of sample sizes: 16351, 16352, 16353, 16350, 16352, 16352, ... 
+## Summary of sample sizes: 16350, 16352, 16351, 16352, 16353, 16352, ... 
 ## Resampling results across tuning parameters:
 ## 
-##   cp          Accuracy   Kappa       Accuracy SD  Kappa SD  
-##   0.03567868  0.5022445  0.34969950  0.01117363   0.01489103
-##   0.05998671  0.4066400  0.19318701  0.06235045   0.10577823
-##   0.11515454  0.3108660  0.04031761  0.04097224   0.06247661
+##   cp          Accuracy   Kappa      Accuracy SD  Kappa SD  
+##   0.03567868  0.5059597  0.3548230  0.01688321   0.02245961
+##   0.05998671  0.4499184  0.2654796  0.06602277   0.11072545
+##   0.11515454  0.3238629  0.0601771  0.04322820   0.06597441
 ## 
 ## Accuracy was used to select the optimal model using  the largest value.
 ## The final value used for the model was cp = 0.03567868.
@@ -122,16 +122,16 @@ modelForest
 ## 
 ## No pre-processing
 ## Resampling: Cross-Validated (6 fold) 
-## Summary of sample sizes: 16351, 16352, 16351, 16352, 16352, 16352, ... 
+## Summary of sample sizes: 16351, 16352, 16352, 16350, 16352, 16353, ... 
 ## Resampling results across tuning parameters:
 ## 
 ##   mtry  Accuracy   Kappa      Accuracy SD  Kappa SD   
-##    2    0.9948018  0.9934244  0.001144048  0.001447441
-##   27    0.9948018  0.9934245  0.001127134  0.001425852
-##   52    0.9888389  0.9858807  0.001822673  0.002305630
+##    2    0.9949038  0.9935535  0.001518561  0.001921135
+##   27    0.9942414  0.9927155  0.001712084  0.002165865
+##   52    0.9887883  0.9858163  0.003110480  0.003936290
 ## 
 ## Accuracy was used to select the optimal model using  the largest value.
-## The final value used for the model was mtry = 27.
+## The final value used for the model was mtry = 2.
 ```
 
 
